@@ -1,0 +1,545 @@
+@import url('https://fonts.googleapis.com/css? family=Poppins:200, 300, 400,500,600,700,800,900& display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Sans-Serif;
+  
+}
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0 100px;
+  background: #262626 ;
+  box-sizing: border-box;
+  width: 100%;
+  z-index: 1;
+}
+.logo h1{
+  margin-top: 3px;
+  font-size: 25px;
+  margin-left: 40px;
+}
+header .logo{
+  color: #fff;
+  height:50px ;
+  line-height: 50px;
+  font-size: 24px;
+  float: left;
+  font-weight: bold;
+}
+header nav{
+  float: right;
+}
+header nav ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+header nav ul li{
+  list-style: none;
+}
+header nav ul li a{
+  height: 50px;
+  line-height: 50px;
+  padding: 0 20px;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+}
+header nav ul li a:hover,
+header nav ul li a:active{
+  color: #fff;
+  background: #2196f3;
+}
+.menu-toggle{
+  color: #fff;
+  float: right;
+  line-height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+}
+@media (max-width:991px){
+  header {
+    padding: 0 20px;
+  }
+  .menu-toggle{
+    display: block;
+  }
+  header nav{
+    position: absolute;
+    width: 100%;
+    height:calc(100vh - 50px);
+    background: rgba(255,255,255,0.1);
+    top: 50px;
+    left: -100%;
+    transition: 0.5s;
+    background: #333;
+  }
+  header nav.active {
+    left: 0;
+  }
+  header nav ul{
+    display: block;
+    text-align: center;
+  }
+  header nav ul li a{
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    color: #fff;
+}
+}
+.logo img{
+  position: absolute;
+  top: 10px;
+  width: 8%;
+}
+.b{
+  position: absolute;
+  width: 100%;
+  background: linear-gradient(#2895D2,#504B99);
+  height: 150%;
+}
+.b p{
+  position: relative;
+  top: 70px;
+  color: white;
+  text-align: center;
+  font-size: 35px;
+}
+.c{
+  position: relative;
+  top: 40px;
+}
+.c p{
+  position: relative;
+  font-size: 28px;
+  text-align: left;
+  padding: 10px;
+}
+.d{
+  position: absolute;
+  width: 90%;
+}
+.d p{
+  position: absolute;
+  font-size: 18px;
+  left: 10px;
+}
+.e{
+  position: absolute;
+  top: 380px;
+ left: 20px;
+}
+.e button {
+  margin-top: 55px;
+  color: white;
+  height: 30px;
+  width: 120px;
+  background: #E25331;
+  border: 1px solid #E25331;
+  border-radius:5px;
+  outline: none;
+}
+.f{
+  position: relative;
+}
+.f button {
+  position: relative;
+  top: -85px;
+  background: none;
+  margin-left: 130px;
+  width: 60%;
+  border:1px solid rgba(255,255,255,0.5);
+  border-right:1px solid rgba(255,255,255,0.2);
+  border-bottom:1px solid rgba(255,255,255,0.2);
+}
+.g{
+  position: relative;
+}
+.g img{
+  position: relative;
+  top: 12px;
+  left: 10px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.h{
+  position: relative;
+  top: -5px;
+  left: -30px;
+  height: 1300px;
+  width: 120%;
+  background: #F3F7FA;
+}
+.j{
+  position: relative;
+  width: 80%;
+}
+.j h1{
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+.j p{
+  position: relative;
+  left: 20px;
+  top: 10px;
+  color: black;
+}
+.k{
+  position: relative;
+}
+.k img{
+  position: relative;
+  left: 30px;
+  top: 40px;
+  width: 25%;
+}
+.k p{
+  position: relative;
+  width: 80%;
+  top: -30px;
+  left: 100px;
+}
+.m{
+  position: relative;
+  left: 40px;
+  width: 100%;
+  height: 0;
+  border: 1px solid grey;
+}
+.m img{
+  position: relative;
+  width: 25%;
+  left: -10px;
+}
+.m p{
+  position: relative;
+  left: 60px;
+  width: 80%;
+}
+.n{
+  position: relative;
+  width: 100%;
+  height: 0;
+  border: 1px solid grey;
+}
+.n img{
+  position: relative;
+  width: 25%;
+}
+.o{
+  position: relative;
+  width: 100%;
+  height: 0;
+  border: 1px solid grey;
+}
+.p{
+  position: relative;
+  width: 100%;
+  height: 0;
+  border: 1px solid grey;
+}
+.q{
+  position: relative;
+  width: 100%;
+  height: 0;
+  border: 1px solid grey;
+}
+.r{
+  position: relative;
+  background:linear-gradient(#101B2D,#A4B8D3);
+  width: 123.5%;
+  left: -35.2px;
+  top: -15px;
+  height: 1250px;
+}
+.r p{
+  position: relative;
+  top: 25px;
+  left: 20px;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+.s {
+  
+  width: 90%;
+  margin: 5% auto;
+}
+.t {
+    width: 40%;
+    float: left; 
+    position: relative; 
+    margin: 10px 15px; 
+    left: 1%;
+}
+.t img {
+  width: 120%;
+}
+.u{
+  position: relative;
+}
+.u button {
+  position: relative;
+  top: 40px;
+  color: black;
+  left: -60px;
+  background: #F3F7FA;
+}
+.v{
+  position: relative;
+}
+.v p{
+  position: relative;
+  top: 180px;
+  color: black;
+}
+.w{
+  position: relative;
+}
+.w p{
+  position: relative;
+  font-weight: 400;
+  color: black;
+  text-align: left;
+  font-size: 25px;
+}
+.x{
+  position: relative;
+}
+.x p{
+  position: relative;
+  font-size: 18px;
+  color: grey;
+}
+.y{
+  position: relative;
+}
+.y p{
+  position: relative;
+  color: black;
+  font-size: 25px;
+  width: 80%;
+}
+.z{
+  position: relative;
+}
+.z p{
+  position: relative;
+  font-size: 18px;
+  color: grey;
+}
+.aa{
+  position: relative;
+}
+.aa p{
+  position: relative;
+  font-size: 25px ;
+  color: black;
+}
+.bb{
+  position: relative;
+}
+.bb p{
+  position: relative;
+  font-size: 18px;
+  color: grey;
+}
+.cc{
+  position: relative;
+}
+.cc p{
+  position: relative;
+  font-size: 25px;
+  color: black;
+}
+.dd {
+  position: relative;
+}
+.dd p{
+  position: relative;
+  font-size: 18px;
+  color: grey;
+}
+.ee .ff{
+  position: relative;
+}
+.ee p{
+  position: relative;
+  font-size: 25px;
+  color: black;
+}
+.ff p{
+  position: relative;
+  color: grey;
+  font-size: 18px;
+}
+.gg{
+  position: relative;
+  top: 180px;
+  height: 180px;
+  width: 110%;
+  left: -16px;
+  background: #E6E6FA;
+}
+.gg p{
+  position: relative;
+  text-align: center;
+  top: 30px;
+  color: black;
+  font-size: 25px;
+  width: 80%;
+}
+.accordion {
+  max-width:800px;
+  margin-top:70px;
+  background: #E6E6FA;
+}
+.accordion .contentBx{
+  position: relative;
+  margin:30px 20px ;
+}
+.accordion .contentBx .label{
+  position: relative;
+  top: 0px;
+  height: 50px;
+  border-radius: 10px;
+  padding: 10px;
+  background:#00FFFF;
+  cursor: pointer;
+}
+.accordion .contentBx .label::before{
+  content: '+';
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  color: #FF00FF;
+  transform: translateY(-50%);
+  font-size: 1.5em;
+}
+.accordion .contentBx.active .label::before{
+  content: '-';
+}
+.accordion .contentBx .content{
+  position: relative;
+  background: #fff;
+  height: 0;
+  overflow: hidden ;
+  transition: .5s;
+  overflow-y: auto;
+}
+.accordion .contentBx.active .content{
+  height: 150px;
+  padding: 10px;
+}
+.accordion .contentBx .content p{
+  font-size: 16px;
+  text-align: left;
+  margin-top: -20px;
+}
+.content {
+  border-radius: 10px;
+  margin-top: 10px;
+  
+}
+.hh{
+  position: relative;
+  top: 0px;
+  height: 5px;
+  border-radius: 30px;
+  width: 100%;
+  background: #FF0000;
+}
+.hh p{
+  position: relative;
+  top: 80px;
+  color: black;
+  font-size: 30px;
+}
+.jj{
+  position: relative;
+  top:100px;
+  height: 1px;
+  width: 100%;
+  background: grey;
+}
+.jj button{
+  position: relative;
+  left: -90px;
+  top: -20px;
+  width: 10%;
+  background: none;
+}
+.jj p{
+  position: relative;
+  top: 90px;
+  left: 30px;
+  font-size: 20px;
+}
+.kk{
+  position: relative;
+  top: -90px;
+}
+.kk p{
+  position: relative;
+  left: 50px;
+  top: 100px;
+}
+.kk button {
+  position: relative;
+}
+.mm{
+  position: relative;
+  top: -70px;
+}
+.mm p{
+  position: relative;
+  top: 90px;
+  left: -3px;
+}
+.nn{
+  position: relative;
+}
+.nn button{
+  position: relative;
+  left: -40px;
+  background: red;
+  color: white;
+  width: 50%;
+}
+.rr{
+  position: relative;
+  left: -100px;
+  height: 70px;
+  margin: 5% auto;
+}
+.ss{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin:0px 5px ;
+  width: 20%;
+  float: left;
+  left: 40px;
+}
+.ss button {
+  position: relative;
+  top: -35px;
+  z-index: 111;
+  background: none;
+}
+.ss button:hover{
+  color: red;
+  background: aqua;
+}
+.pp{
+  position: relative;
+  background: black;
+}
